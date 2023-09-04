@@ -1,17 +1,28 @@
 h1 {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Ubuntu',Arial, sans-serif;
     font-size: 46px;
+    text-align: center;
+    margin-top: 50px;
      }
 * {
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(138, 222, 255);
+    
     font-style: normal;
     font-weight: normal;
+    
 }
 .menu {
     list-style-type:none;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+    margin-top: -70px;
+    font-size: 120px;
+
+    
     
 }
 img {
@@ -31,7 +42,7 @@ a {
     line-height: 30px; font-size: 22px;
 }
 a:hover {
-    color: rgb(15, 175, 0);
+    color: orange;
     text-align: center;
     font-size: 30px;
    
@@ -52,8 +63,22 @@ button {
     line-height: 50px;
     margin-left: auto;
     margin-right: auto;
+    
     display: flex;
     margin-bottom: 7vh;
     margin-top: -3vh;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.osnovni {
+    margin-top: 0px;
+    padding-top: 80px;
+    
+}
+body {
+   background-size: cover;
+   
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(138, 222, 255));
+}
+svg {
+    padding-top: 0;
 }
